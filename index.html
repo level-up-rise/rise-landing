@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>INELLI — Kevin Villarroya-Palau</title>
+  <meta name="description" content="INELLI — studio de développement de Kevin Villarroya-Palau. Création d'applications mobiles et web, dont RISE Hunter." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">INELLI</a>
+    <nav class="nav">
+      <a href="#activite">Activité</a>
+      <a href="#produit">Produit</a>
+      <a href="#contact">Contact</a>
+      <a href="#mentions">Mentions</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Studio de développement</p>
+      <h1 class="brand">INELLI</h1>
+      <p class="lead">
+        Kevin Villarroya-Palau conçoit des applications mobiles et web
+        utiles, soignées et prêtes pour la production.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#produit">Découvrir RISE Hunter</a>
+        <a class="btn btn-ghost" href="#contact">Nous contacter</a>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <section id="activite" class="section">
+      <p class="section-kicker">Activité</p>
+      <h2>Développement sur mesure</h2>
+      <p class="section-text">
+        Conception, réalisation et déploiement d’applications — du prototype
+        à la mise en production. Stack moderne, API, mobile (Android) et
+        interfaces web.
+      </p>
+      <ul class="pillars">
+        <li>
+          <strong>Mobile</strong>
+          <span>Applications Android natives via Capacitor / Play Store</span>
+        </li>
+        <li>
+          <strong>Backend</strong>
+          <span>API, auth, données et intégrations cloud</span>
+        </li>
+        <li>
+          <strong>Produit</strong>
+          <span>UX claire, itérations rapides, qualité de release</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="produit" class="section product">
+      <p class="section-kicker">Produit</p>
+      <h2>RISE Hunter</h2>
+      <p class="section-text">
+        Une application de progression personnelle inspirée des systèmes RPG :
+        quêtes quotidiennes, entraînement, suivi nutritionnel et rangs —
+        pour transformer la discipline en jeu.
+      </p>
+      <div class="product-panel">
+        <div>
+          <h3>Ce que fait l’app</h3>
+          <ul class="checklist">
+            <li>Quêtes &amp; XP pour ancrer les bonnes habitudes</li>
+            <li>Séances d’entraînement et programmes</li>
+            <li>Suivi alimentaire (scan, macros, objectifs)</li>
+            <li>Progression de rangs et statistiques</li>
+          </ul>
+        </div>
+        <div class="product-cta">
+          <p class="muted">Bientôt disponible sur le Play Store</p>
+          <a class="btn btn-primary is-disabled" href="#produit" aria-disabled="true" id="store-link">
+            Lien Play Store à venir
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="section-kicker">Coordonnées</p>
+      <h2>Parlons de votre projet</h2>
+      <div class="contact-grid">
+        <div>
+          <p class="label">Entrepreneur</p>
+          <p>Kevin Villarroya-Palau</p>
+        </div>
+        <div>
+          <p class="label">Marque</p>
+          <p>INELLI</p>
+        </div>
+        <div>
+          <p class="label">Email</p>
+          <p><a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a></p>
+        </div>
+        <div>
+          <p class="label">SIREN</p>
+          <p>944&nbsp;601&nbsp;327</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mentions" class="section legal">
+      <p class="section-kicker">Mentions légales</p>
+      <h2>Informations légales</h2>
+      <div class="legal-block">
+        <h3>Éditeur du site</h3>
+        <p>
+          Kevin Villarroya-Palau — entreprise individuelle opérant sous la
+          marque <strong>INELLI</strong>.<br />
+          SIREN : 944&nbsp;601&nbsp;327<br />
+          Contact : <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
+        </p>
+
+        <h3>Hébergement</h3>
+        <p>
+          Le site est hébergé via une infrastructure cloud gérée par
+          l’éditeur (conteneur Docker). Pour toute question relative
+          à l’hébergement, contactez l’éditeur à l’adresse ci-dessus.
+        </p>
+
+        <h3>Propriété intellectuelle</h3>
+        <p>
+          L’ensemble des contenus présents sur ce site (textes, marques,
+          visuels) est protégé. Toute reproduction non autorisée est
+          interdite. RISE Hunter et INELLI sont des marques utilisées
+          par Kevin Villarroya-Palau.
+        </p>
+
+        <h3>Données personnelles</h3>
+        <p>
+          Ce site vitrine ne collecte pas de données personnelles via
+          formulaire. Les échanges par email relèvent de la relation
+          professionnelle habituelle. Conformément au RGPD, vous pouvez
+          exercer vos droits en écrivant à l’éditeur.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> INELLI — Kevin Villarroya-Palau</span>
+    <span>SIREN 944&nbsp;601&nbsp;327</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>
