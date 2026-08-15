@@ -1,27 +1,22 @@
-# INELLI — site vitrine
+# RISE Hunter — landing
 
-Site de présentation pour **Kevin Villarroya-Palau / INELLI** :
+Site public de **RISE Hunter** (organisation [`level-up-rise`](https://github.com/level-up-rise)) :
 
-- activité de développeur
-- produit **RISE Hunter**
-- coordonnées
-- mentions légales (SIREN `944 601 327`)
+- présentation de l’application
+- infos éditeur / développeur (Google Play)
+- contact, confidentialité, mentions légales (SIREN `944 601 327`)
 
 ## Local
 
-Ouvrir `index.html` dans un navigateur, ou :
-
 ```bash
-docker build -t inelli-site .
-docker run --rm -p 8080:80 inelli-site
+docker build -t rise-landing .
+docker run --rm -p 8080:80 rise-landing
 ```
 
-Puis http://localhost:8080
+## CI
 
-## CI / CD
-
-Le `Jenkinsfile` build & push l’image Docker Hub `villaroyakevin/inelli-site:latest` sur les branches `main` / `master` (agent Kaniko, credentials `dockerhub-creds`).
+`Jenkinsfile` : sur `main` / `master`, push Docker Hub `villaroyakevin/rise-landing:latest`.
 
 ## Play Store
 
-Remplacer le bouton « Lien Play Store à venir » dans `index.html` (`#store-link`) quand l’URL sera disponible.
+Activer le bouton `#store-link` dans `index.html` quand l’URL Play Store est connue.

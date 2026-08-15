@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>INELLI — Kevin Villarroya-Palau</title>
-  <meta name="description" content="INELLI — studio de développement de Kevin Villarroya-Palau. Création d'applications mobiles et web, dont RISE Hunter." />
+  <title>RISE Hunter — Progression personnelle</title>
+  <meta name="description" content="RISE Hunter — application de progression personnelle (quêtes, sport, nutrition). Éditée par Kevin Villarroya-Palau / INELLI, SIREN 944 601 327." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -14,10 +14,11 @@
   <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="logo" href="#top">INELLI</a>
+    <a class="logo" href="#top">RISE Hunter</a>
     <nav class="nav">
-      <a href="#activite">Activité</a>
-      <a href="#produit">Produit</a>
+      <a href="#app">L’application</a>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#editeur">Éditeur</a>
       <a href="#contact">Contact</a>
       <a href="#mentions">Mentions</a>
     </nav>
@@ -25,90 +26,138 @@
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Studio de développement</p>
-      <h1 class="brand">INELLI</h1>
+      <p class="eyebrow">Application mobile · Android</p>
+      <h1 class="brand">RISE Hunter</h1>
       <p class="lead">
-        Kevin Villarroya-Palau conçoit des applications mobiles et web
-        utiles, soignées et prêtes pour la production.
+        Transformez votre discipline en progression : quêtes quotidiennes,
+        entraînement, suivi nutritionnel et rangs — comme un RPG, pour la vraie vie.
       </p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="#produit">Découvrir RISE Hunter</a>
-        <a class="btn btn-ghost" href="#contact">Nous contacter</a>
+        <a class="btn btn-primary is-disabled" href="#app" aria-disabled="true" id="store-link">
+          Bientôt sur le Play Store
+        </a>
+        <a class="btn btn-ghost" href="#editeur">Infos éditeur</a>
       </div>
       <div class="hero-glow" aria-hidden="true"></div>
     </section>
 
-    <section id="activite" class="section">
-      <p class="section-kicker">Activité</p>
-      <h2>Développement sur mesure</h2>
+    <section id="app" class="section">
+      <p class="section-kicker">Produit</p>
+      <h2>Une app pour monter de rang</h2>
       <p class="section-text">
-        Conception, réalisation et déploiement d’applications — du prototype
-        à la mise en production. Stack moderne, API, mobile (Android) et
-        interfaces web.
+        RISE Hunter aide à tenir des objectifs concrets — sport, alimentation,
+        habitudes — avec une expérience ludique : XP, quêtes et progression de rang.
       </p>
-      <ul class="pillars">
-        <li>
-          <strong>Mobile</strong>
-          <span>Applications Android natives via Capacitor / Play Store</span>
-        </li>
-        <li>
-          <strong>Backend</strong>
-          <span>API, auth, données et intégrations cloud</span>
-        </li>
-        <li>
-          <strong>Produit</strong>
-          <span>UX claire, itérations rapides, qualité de release</span>
-        </li>
-      </ul>
     </section>
 
-    <section id="produit" class="section product">
-      <p class="section-kicker">Produit</p>
-      <h2>RISE Hunter</h2>
-      <p class="section-text">
-        Une application de progression personnelle inspirée des systèmes RPG :
-        quêtes quotidiennes, entraînement, suivi nutritionnel et rangs —
-        pour transformer la discipline en jeu.
-      </p>
-      <div class="product-panel">
+    <section id="features" class="section">
+      <p class="section-kicker">Fonctionnalités</p>
+      <h2>Ce que vous retrouvez dans l’app</h2>
+      <ul class="pillars">
+        <li>
+          <strong>Quêtes &amp; XP</strong>
+          <span>Des défis quotidiens pour ancrer les bonnes habitudes</span>
+        </li>
+        <li>
+          <strong>Entraînement</strong>
+          <span>Séances et programmes pour progresser physiquement</span>
+        </li>
+        <li>
+          <strong>Nutrition</strong>
+          <span>Suivi alimentaire, macros et objectifs caloriques</span>
+        </li>
+        <li>
+          <strong>Rangs</strong>
+          <span>Statistiques et progression pour visualiser vos efforts</span>
+        </li>
+      </ul>
+      <div class="product-panel" style="margin-top: 2rem">
         <div>
-          <h3>Ce que fait l’app</h3>
-          <ul class="checklist">
-            <li>Quêtes &amp; XP pour ancrer les bonnes habitudes</li>
-            <li>Séances d’entraînement et programmes</li>
-            <li>Suivi alimentaire (scan, macros, objectifs)</li>
-            <li>Progression de rangs et statistiques</li>
-          </ul>
+          <h3>Disponibilité</h3>
+          <p class="muted" style="margin: 0">
+            L’application sera publiée sur Google Play. Le lien de téléchargement
+            sera ajouté ici dès la mise en ligne.
+          </p>
         </div>
         <div class="product-cta">
-          <p class="muted">Bientôt disponible sur le Play Store</p>
-          <a class="btn btn-primary is-disabled" href="#produit" aria-disabled="true" id="store-link">
-            Lien Play Store à venir
-          </a>
+          <p class="muted">Lien Play Store à venir</p>
+          <a class="btn btn-primary is-disabled" href="#app" aria-disabled="true">Télécharger</a>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <p class="section-kicker">Coordonnées</p>
-      <h2>Parlons de votre projet</h2>
-      <div class="contact-grid">
+    <section id="editeur" class="section">
+      <p class="section-kicker">Éditeur · Google Play</p>
+      <h2>Développeur &amp; éditeur</h2>
+      <p class="section-text">
+        Informations de l’éditeur pour la fiche développeur et la validation
+        du compte Google Play.
+      </p>
+      <div class="contact-grid" style="margin-top: 1.75rem">
         <div>
-          <p class="label">Entrepreneur</p>
+          <p class="label">Développeur</p>
           <p>Kevin Villarroya-Palau</p>
         </div>
         <div>
-          <p class="label">Marque</p>
+          <p class="label">Marque / studio</p>
           <p>INELLI</p>
         </div>
         <div>
-          <p class="label">Email</p>
-          <p><a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a></p>
+          <p class="label">Organisation GitHub</p>
+          <p><a href="https://github.com/level-up-rise" rel="noopener">level-up-rise</a></p>
+        </div>
+        <div>
+          <p class="label">Application</p>
+          <p>RISE Hunter</p>
         </div>
         <div>
           <p class="label">SIREN</p>
           <p>944&nbsp;601&nbsp;327</p>
         </div>
+        <div>
+          <p class="label">Email support</p>
+          <p><a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a></p>
+        </div>
+        <div>
+          <p class="label">Activité</p>
+          <p>Développement d’applications mobiles et web</p>
+        </div>
+        <div>
+          <p class="label">Pays</p>
+          <p>France</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="section-kicker">Contact</p>
+      <h2>Support &amp; contact</h2>
+      <p class="section-text">
+        Pour toute question sur RISE Hunter, le compte développeur ou le support
+        utilisateurs : <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
+      </p>
+    </section>
+
+    <section id="confidentialite" class="section legal">
+      <p class="section-kicker">Confidentialité</p>
+      <h2>Politique de confidentialité (aperçu)</h2>
+      <div class="legal-block">
+        <p>
+          RISE Hunter traite les données nécessaires au fonctionnement du compte
+          (email, profil, progression, données d’entraînement et de nutrition
+          saisies par l’utilisateur). Les données sont utilisées pour fournir
+          le service, sécuriser les comptes et améliorer l’application.
+        </p>
+        <p>
+          Aucune vente de données personnelles à des tiers. Les prestataires
+          techniques (hébergement, email transactionnel) interviennent uniquement
+          pour opérer le service. Conformément au RGPD, vous pouvez demander
+          l’accès, la rectification ou la suppression de vos données en écrivant
+          à <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>.
+        </p>
+        <p class="muted">
+          Une page dédiée pourra être enrichie avant la publication Play Store.
+        </p>
       </div>
     </section>
 
@@ -116,42 +165,33 @@
       <p class="section-kicker">Mentions légales</p>
       <h2>Informations légales</h2>
       <div class="legal-block">
-        <h3>Éditeur du site</h3>
+        <h3>Éditeur du site et de l’application</h3>
         <p>
           Kevin Villarroya-Palau — entreprise individuelle opérant sous la
           marque <strong>INELLI</strong>.<br />
+          Application : <strong>RISE Hunter</strong><br />
           SIREN : 944&nbsp;601&nbsp;327<br />
           Contact : <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
         </p>
 
         <h3>Hébergement</h3>
         <p>
-          Le site est hébergé via une infrastructure cloud gérée par
-          l’éditeur (conteneur Docker). Pour toute question relative
-          à l’hébergement, contactez l’éditeur à l’adresse ci-dessus.
+          Site hébergé via une infrastructure cloud gérée par l’éditeur
+          (conteneur Docker). Contact hébergement : même adresse email.
         </p>
 
         <h3>Propriété intellectuelle</h3>
         <p>
-          L’ensemble des contenus présents sur ce site (textes, marques,
-          visuels) est protégé. Toute reproduction non autorisée est
-          interdite. RISE Hunter et INELLI sont des marques utilisées
-          par Kevin Villarroya-Palau.
-        </p>
-
-        <h3>Données personnelles</h3>
-        <p>
-          Ce site vitrine ne collecte pas de données personnelles via
-          formulaire. Les échanges par email relèvent de la relation
-          professionnelle habituelle. Conformément au RGPD, vous pouvez
-          exercer vos droits en écrivant à l’éditeur.
+          Les contenus de ce site et de l’application RISE Hunter (textes,
+          marques, visuels) sont protégés. Toute reproduction non autorisée
+          est interdite.
         </p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <span>© <span id="year"></span> INELLI — Kevin Villarroya-Palau</span>
+    <span>© <span id="year"></span> RISE Hunter — Kevin Villarroya-Palau / INELLI</span>
     <span>SIREN 944&nbsp;601&nbsp;327</span>
   </footer>
 

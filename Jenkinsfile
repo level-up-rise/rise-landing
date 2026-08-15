@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "inelli-site"
+        IMAGE_NAME = "rise-landing"
         REGISTRY_URL = "docker.io"
         REGISTRY_NAMESPACE = "villaroyakevin"
     }
