@@ -1,62 +1,64 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RISE Hunter — Progression personnelle</title>
-  <meta name="description" content="RISE Hunter — application de progression personnelle (quêtes, sport, nutrition). Éditée par Kevin Villarroya-Palau / INELLI, SIREN 944 601 327." />
+  <title>RISE — Hunter Training System</title>
+  <meta name="description" content="RISE Hunter — quêtes quotidiennes, entraînement, nutrition et rangs. Éditée par Kevin Villarroya-Palau / INELLI, SIREN 944 601 327." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-a" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-b" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="logo" href="#top">RISE Hunter</a>
+    <a class="logo" href="#top">RISE<span>Hunter</span></a>
     <nav class="nav">
-      <a href="#app">L’application</a>
-      <a href="#features">Fonctionnalités</a>
+      <a href="#app">Système</a>
+      <a href="#features">Modules</a>
       <a href="#editeur">Éditeur</a>
       <a href="#contact">Contact</a>
-      <a href="#mentions">Mentions</a>
+      <a href="#mentions">Légal</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Application mobile · Android</p>
-      <h1 class="brand">RISE Hunter</h1>
+      <p class="eyebrow">Hunter Training System · Android</p>
+      <h1 class="brand">RISE</h1>
+      <p class="tagline">Level up in real life.</p>
       <p class="lead">
-        Transformez votre discipline en progression : quêtes quotidiennes,
-        entraînement, suivi nutritionnel et rangs — comme un RPG, pour la vraie vie.
+        Quêtes quotidiennes, entraînement, suivi nutritionnel et progression de rang —
+        un système inspiré des RPG pour ancrer la discipline.
       </p>
       <div class="cta-row">
         <a class="btn btn-primary is-disabled" href="#app" aria-disabled="true" id="store-link">
           Bientôt sur le Play Store
         </a>
-        <a class="btn btn-ghost" href="#editeur">Infos éditeur</a>
+        <a class="btn btn-ghost" href="#editeur">Fiche éditeur</a>
       </div>
-      <div class="hero-glow" aria-hidden="true"></div>
     </section>
 
     <section id="app" class="section">
-      <p class="section-kicker">Produit</p>
-      <h2>Une app pour monter de rang</h2>
+      <p class="section-kicker">Système</p>
+      <h2>Montez de rang dans la vraie vie</h2>
       <p class="section-text">
-        RISE Hunter aide à tenir des objectifs concrets — sport, alimentation,
-        habitudes — avec une expérience ludique : XP, quêtes et progression de rang.
+        RISE Hunter transforme vos objectifs — sport, alimentation, habitudes —
+        en progression visible : XP, quêtes et rangs de E à S.
       </p>
     </section>
 
     <section id="features" class="section">
-      <p class="section-kicker">Fonctionnalités</p>
-      <h2>Ce que vous retrouvez dans l’app</h2>
+      <p class="section-kicker">Modules</p>
+      <h2>Ce que contient le System</h2>
       <ul class="pillars">
         <li>
           <strong>Quêtes &amp; XP</strong>
-          <span>Des défis quotidiens pour ancrer les bonnes habitudes</span>
+          <span>Défis quotidiens pour ancrer les bonnes habitudes</span>
         </li>
         <li>
           <strong>Entraînement</strong>
@@ -68,15 +70,15 @@
         </li>
         <li>
           <strong>Rangs</strong>
-          <span>Statistiques et progression pour visualiser vos efforts</span>
+          <span>Stats et progression pour visualiser vos efforts</span>
         </li>
       </ul>
-      <div class="product-panel" style="margin-top: 2rem">
+      <div class="product-panel">
         <div>
           <h3>Disponibilité</h3>
-          <p class="muted" style="margin: 0">
-            L’application sera publiée sur Google Play. Le lien de téléchargement
-            sera ajouté ici dès la mise en ligne.
+          <p class="muted">
+            Publication prévue sur Google Play. Le lien de téléchargement sera
+            ajouté ici dès la mise en ligne.
           </p>
         </div>
         <div class="product-cta">
@@ -93,7 +95,7 @@
         Informations de l’éditeur pour la fiche développeur et la validation
         du compte Google Play.
       </p>
-      <div class="contact-grid" style="margin-top: 1.75rem">
+      <div class="contact-grid">
         <div>
           <p class="label">Développeur</p>
           <p>Kevin Villarroya-Palau</p>
@@ -103,7 +105,7 @@
           <p>INELLI</p>
         </div>
         <div>
-          <p class="label">Organisation GitHub</p>
+          <p class="label">Organisation</p>
           <p><a href="https://github.com/level-up-rise" rel="noopener">level-up-rise</a></p>
         </div>
         <div>
@@ -133,8 +135,8 @@
       <p class="section-kicker">Contact</p>
       <h2>Support &amp; contact</h2>
       <p class="section-text">
-        Pour toute question sur RISE Hunter, le compte développeur ou le support
-        utilisateurs : <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
+        Questions sur RISE Hunter, le compte développeur ou le support :
+        <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
       </p>
     </section>
 
@@ -155,9 +157,6 @@
           l’accès, la rectification ou la suppression de vos données en écrivant
           à <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>.
         </p>
-        <p class="muted">
-          Une page dédiée pourra être enrichie avant la publication Play Store.
-        </p>
       </div>
     </section>
 
@@ -173,18 +172,15 @@
           SIREN : 944&nbsp;601&nbsp;327<br />
           Contact : <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
         </p>
-
         <h3>Hébergement</h3>
         <p>
           Site hébergé via une infrastructure cloud gérée par l’éditeur
-          (conteneur Docker). Contact hébergement : même adresse email.
+          (conteneur Docker / Kubernetes). Contact : même adresse email.
         </p>
-
         <h3>Propriété intellectuelle</h3>
         <p>
-          Les contenus de ce site et de l’application RISE Hunter (textes,
-          marques, visuels) sont protégés. Toute reproduction non autorisée
-          est interdite.
+          Les contenus de ce site et de l’application RISE Hunter sont protégés.
+          Toute reproduction non autorisée est interdite.
         </p>
       </div>
     </section>
