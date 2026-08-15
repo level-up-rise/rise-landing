@@ -38,6 +38,7 @@ pipeline {
                 anyOf {
                     branch 'main'
                     branch 'master'
+                    branch 'dev'
                 }
             }
             steps {
