@@ -5,6 +5,7 @@ COPY index.html /usr/share/nginx/html/index.html
 COPY styles.css /usr/share/nginx/html/styles.css
 COPY google45fdf7cf0bba3261.html /usr/share/nginx/html/google45fdf7cf0bba3261.html
 COPY privacy.html /usr/share/nginx/html/privacy.html
+COPY delete-account.html /usr/share/nginx/html/delete-account.html
 COPY favicon.ico /usr/share/nginx/html/favicon.ico
 COPY favicon.png /usr/share/nginx/html/favicon.png
 COPY icon.png /usr/share/nginx/html/icon.png

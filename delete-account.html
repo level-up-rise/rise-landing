@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suppression de compte — RISE Hunter</title>
+  <meta name="description" content="Demandez la suppression de votre compte RISE Hunter et des données associées. Éditeur : Kevin Villarroya-Palau / INELLI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.ico?v=3" sizes="any" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/">RISE<span>Hunter</span></a>
+    <nav class="nav">
+      <a href="/">Accueil</a>
+      <a href="/privacy.html">Confidentialité</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="section legal">
+      <p class="section-kicker">Compte &amp; données</p>
+      <h2>Suppression de compte — RISE Hunter</h2>
+      <div class="legal-block">
+        <p>
+          Cette page concerne l’application Android <strong>RISE Hunter</strong>
+          (package <code>com.inelli.fitquest</code>), éditée par
+          <strong>Kevin Villarroya-Palau / INELLI</strong>.
+        </p>
+        <p>
+          Vous pouvez demander la suppression de votre compte et des données
+          associées sans réinstaller l’application.
+        </p>
+
+        <h3>Procédure à suivre</h3>
+        <ol class="delete-steps">
+          <li>
+            <strong>Option recommandée (dans l’app) :</strong> ouvrez RISE Hunter →
+            Profil → Compte → <em>Supprimer mon compte</em>. Confirmez avec votre
+            mot de passe. La suppression est alors immédiate.
+          </li>
+          <li>
+            <strong>Sans l’app :</strong> envoyez une demande depuis l’adresse email
+            liée à votre compte (voir le bouton ci-dessous), en indiquant clairement
+            que vous souhaitez supprimer votre compte RISE Hunter.
+          </li>
+          <li>
+            Nous vérifions que la demande provient bien du titulaire du compte,
+            puis procédons à la suppression.
+          </li>
+          <li>
+            Vous recevez une confirmation par email une fois le compte supprimé
+            (délai maximum : <strong>30 jours</strong>).
+          </li>
+        </ol>
+
+        <div class="delete-cta">
+          <p class="delete-cta-title">Demander la suppression par email</p>
+          <p class="muted">
+            Utilisez l’adresse email de votre compte RISE Hunter.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="mailto:kevin.villaroya@gmail.com?subject=Suppression%20de%20compte%20RISE%20Hunter&body=Bonjour%2C%0A%0AJe%20demande%20la%20suppression%20de%20mon%20compte%20RISE%20Hunter%20et%20des%20donn%C3%A9es%20associ%C3%A9es.%0A%0AEmail%20du%20compte%20%3A%20%0A%0AMerci."
+          >
+            Envoyer ma demande
+          </a>
+          <p class="muted delete-cta-note">
+            Ou écrivez à
+            <a href="mailto:kevin.villaroya@gmail.com">kevin.villaroya@gmail.com</a>
+            avec l’objet « Suppression de compte RISE Hunter ».
+          </p>
+        </div>
+
+        <h3>Données supprimées</h3>
+        <p>Lors de la suppression du compte, nous effaçons :</p>
+        <ul>
+          <li>Identifiants du compte (email, mot de passe haché)</li>
+          <li>Profil hunter (pseudo, XP, rangs, attributs, titres, préférences)</li>
+          <li>Quêtes, progression, historique d’entraînement et programmes</li>
+          <li>Journal nutritionnel et scans alimentaires associés</li>
+          <li>Suivi corporel (poids, estimations, photos de check-in stockées)</li>
+          <li>Jobs / files d’attente techniques liés à votre compte</li>
+        </ul>
+
+        <h3>Données conservées (et durée)</h3>
+        <ul>
+          <li>
+            <strong>Aucune donnée de compte n’est conservée</strong> après suppression
+            réussie, hors copies de sauvegarde techniques automatiques.
+          </li>
+          <li>
+            <strong>Sauvegardes serveur :</strong> peuvent encore contenir des traces
+            jusqu’à <strong>30 jours</strong>, puis sont écrasées / purgées selon le
+            cycle de rotation.
+          </li>
+          <li>
+            <strong>Logs de sécurité / anti-abus :</strong> éventuels journaux techniques
+            anonymisés ou agrégés, conservés au maximum <strong>90 jours</strong>
+            (sans permettre d’identifier votre compte une fois celui-ci supprimé).
+          </li>
+          <li>
+            Les données Health Connect / Apple Health restent sur votre appareil et
+            ne sont pas stockées comme un compte cloud indépendant chez RISE ; révoquez
+            l’accès dans les réglages santé de votre téléphone si besoin.
+          </li>
+        </ul>
+
+        <h3>Mode invité</h3>
+        <p>
+          Si vous utilisez l’app sans compte, la progression reste locale sur
+          l’appareil. Désinstallez l’application ou effacez ses données pour la
+          supprimer — aucune suppression de compte cloud n’est nécessaire.
+        </p>
+
+        <p>
+          Politique de confidentialité :
+          <a href="/privacy.html">level-up.inelli-prog.com/privacy.html</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> RISE Hunter — Kevin Villarroya-Palau / INELLI</span>
+    <a href="/">Retour au site</a>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>

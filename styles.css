@@ -362,6 +362,45 @@ main,
   margin-top: 0;
 }
 
+.delete-steps {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.delete-steps li {
+  padding-left: 0.25rem;
+}
+
+.delete-cta {
+  margin: 1.75rem 0;
+  padding: 1.35rem 1.25rem;
+  border-radius: 0.85rem;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(145deg, rgba(168, 85, 247, 0.14), transparent 50%),
+    var(--bg-elev);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.delete-cta-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.delete-cta-note {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
 .site-footer {
   max-width: 1100px;
   margin: 0 auto;
